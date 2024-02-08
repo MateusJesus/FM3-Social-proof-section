@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap);
+
+:root {
+    --ff-principal: 'League Spartan', sans-serif;
+    --fs-title: 50px;
+    --fs-text: 15px;
+
+    --color-text: hsl(303, 10%, 53%);
+    --color-title: hsl(300, 43%, 22%);
+    --color-text-star: hsl(300, 43%, 22%);
+    --color-name-subtitle: hsl(333, 80%, 67%);
+    --color-link-footer:  hsl(300, 7%, 37%);
+    --white: hsl(0, 0%, 100%);
+
+    --bg-avaliation: hsl(300, 24%, 96%);
+    --bg-container : hsl(300, 43%, 22%);
+    --bg-footer: hsl(300, 24%, 96%);
+}

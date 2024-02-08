@@ -1,0 +1,123 @@
+body {
+    font-family: var(--ff-principal);
+    font-size: var(--fs-text);
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+    background-size: auto, auto; /* Ajuste o tamanho das imagens conforme necessário */
+    background-position: top left, bottom right; /* Posição da primeira e segunda imagem */
+    background-repeat: no-repeat, no-repeat;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.box-center {
+    padding: 5% 0;
+    width: 80%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction {
+    width: 40%;
+    color: var(--color-text);
+}
+
+.introduction-title {
+    line-height: .9;
+    font-size: var(--fs-title);
+    color: var(--color-title);
+    padding-bottom: .5em;
+}
+
+.box-avaliation {
+    width: 50%;
+}
+
+
+.container-avaliation {
+    display: flex;
+    align-items: initial;
+    padding: 1em;
+    background-color: var(--bg-avaliation);
+    border-radius: 10px;
+    gap: 4em;
+}
+
+.avaliation-text {
+    color: var(--color-text-star);
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.star-icon {
+    padding: 0.1em;
+}
+
+.container-avaliation-1 {
+    margin: 0 4em 0 0 ;
+}
+.container-avaliation-2 {
+    margin: 1em 2em;
+}
+.container-avaliation-3 {
+    margin: 0 0 0 4em;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 3em 0;
+}
+
+.container {
+    background-color: var(--bg-container);
+    padding: 2.5em 2em;
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.container img {
+    height: 3em;
+    border-radius: 50%;
+}
+
+.container .name-subtitle {
+    color: var(--color-name-subtitle);
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.container-1 {
+    margin-bottom: 2em;
+}
+
+.container-2 {
+    margin: 1em 0;
+}
+
+.container-3 {
+    margin-top: 2em;
+}
